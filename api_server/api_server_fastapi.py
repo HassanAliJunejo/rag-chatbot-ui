@@ -46,12 +46,15 @@ app = FastAPI(title="Robotics Assistant API")
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For Vercel deployment - in production, specify exact domains
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "https://*.vercel.app",  # Allow any vercel subdomain
+        "https://hassanalijunejo-deploy-rag-chatbot.hf.space",  # Your Hugging Face space
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    # Additional configuration for Vercel deployment
-    allow_origin_regex="https://.*\.vercel\.app",
 )
 
 
