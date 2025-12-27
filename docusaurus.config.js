@@ -7,13 +7,9 @@ const config = {
   tagline: 'Module 1: The Robotic Nervous System (ROS 2)',
   favicon: 'img/favicon.ico',
 
-  // CHANGE 1: Aapka Vercel deployment URL yahan aayega
   url: 'https://rag-chatbot-ui.vercel.app', 
-  
-  // CHANGE 2: Isay '/' kar dein taake main domain par site load ho
   baseUrl: '/',
 
-  // GitHub pages deployment config (Keep as is or update if needed)
   organizationName: 'HassanAliJunejo', 
   projectName: 'rag-chatbot-ui', 
 
@@ -35,13 +31,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/HassanAliJunejo/rag-chatbot-ui/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/HassanAliJunejo/rag-chatbot-ui/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -50,18 +42,6 @@ const config = {
     ],
   ],
 
-  stylesheets: [
-    {
-      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
-      type: 'text/css',
-      crossorigin: 'anonymous',
-    },
-    {
-      href: 'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap',
-      type: 'text/css',
-      crossorigin: 'anonymous',
-    },
-  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -98,56 +78,14 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Module 1',
-                to: '/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/HassanAliJunejo/rag-chatbot-ui',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} ROS 2 Humanoid Robotics Book. Built with Docusaurus.`,
       },
+      // CHANGE: Theme ko simple kar diya taake error na aaye
       prism: {
         theme: classicThemes.github,
         darkTheme: classicThemes.dracula,
       },
-      algolia: {
-        appId: 'YOUR_APP_ID',
-        apiKey: 'YOUR_SEARCH_API_KEY',
-        indexName: 'ros2-humanoid-book',
-        contextualSearch: true,
-        searchPagePath: 'search',
-      },
     }),
 };
+
 export default config;
