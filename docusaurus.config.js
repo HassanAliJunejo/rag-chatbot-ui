@@ -80,10 +80,10 @@ const config = {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} ROS 2 Humanoid Robotics Book. Built with Docusaurus.`,
       },
-      // CHANGE: Theme ko simple kar diya taake error na aaye
+      // Error yahan se aa raha tha, ab fix kar diya hai
       prism: {
-        theme: classicThemes.github,
-        darkTheme: classicThemes.dracula,
+        theme: { plain: {}, styles: [] }, 
+        darkTheme: { plain: {}, styles: [] },
       },
     }),
 };
