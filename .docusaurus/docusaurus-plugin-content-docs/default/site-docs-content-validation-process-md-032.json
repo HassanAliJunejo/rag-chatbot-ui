@@ -5,10 +5,9 @@
   "source": "@site/docs/content-validation-process.md",
   "sourceDirName": ".",
   "slug": "/content-validation-process",
-  "permalink": "/ros2-humanoid-book/docs/content-validation-process",
+  "permalink": "/docs/content-validation-process",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/content-validation-process.md",
   "tags": [],
   "version": "current",
   "frontMatter": {}

@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Hero from './components/Hero';
-import ChatbotPanel from './components/ChatbotPanel';
+import GlobalChatbot from './components/GlobalChatbot';
 
 function App() {
-  const [isChatOpen, setIsChatOpen] = useState(false);
-
   return (
     <div className="App">
-      <Hero onChatToggle={() => setIsChatOpen(!isChatOpen)} />
-      <ChatbotPanel isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+      <Hero />
+      <GlobalChatbot />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const EnhancedHero = ({ onChatToggle }) => {
+const EnhancedHero = () => {
   useEffect(() => {
     // Create floating particles
     const particlesContainer = document.getElementById('particles');
@@ -180,10 +180,10 @@ const EnhancedHero = ({ onChatToggle }) => {
 
         {/* Robot Illustration */}
         <div className="mt-16 flex justify-center">
-          <motion.div 
+          <motion.div
             className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] bg-[rgba(15,23,42,0.7)] border border-[rgba(56,189,248,0.2)] rounded-2xl backdrop-blur-md relative overflow-hidden"
             animate={{ y: [0, -10, 0] }}
-            transition={{ 
+            transition={{
               duration: 6,
               repeat: Infinity,
               ease: "easeInOut"
@@ -196,7 +196,7 @@ const EnhancedHero = ({ onChatToggle }) => {
                 100% { transform: rotate(360deg); }
               }
             `}</style>
-            
+
             <div className="w-[200px] h-[300px] md:w-[250px] md:h-[375px] mx-auto flex flex-col items-center pt-8 relative">
               {/* Robot Head */}
               <div className="w-[100px] h-[100px] md:w-[120px] md:h-[120px] bg-[#0B1220] rounded-full mb-5 flex items-center justify-center">
@@ -214,13 +214,13 @@ const EnhancedHero = ({ onChatToggle }) => {
                   }
                 `}</style>
               </div>
-              
+
               {/* Robot Body */}
               <div className="w-[120px] h-[120px] md:w-[150px] md:h-[150px] bg-[#0B1220] rounded-xl relative">
                 {/* Robot Arms */}
                 <div className="absolute w-4 h-20 md:w-5 md:h-24 bg-[#00F0FF] top-5 -left-5 md:-left-6 rounded transform -rotate-12"></div>
                 <div className="absolute w-4 h-20 md:w-5 md:h-24 bg-[#00F0FF] top-5 -right-5 md:-right-6 rounded transform rotate-12"></div>
-                
+
                 {/* Robot Legs */}
                 <div className="absolute w-4 h-20 md:w-5 md:h-24 bg-[#00F0FF] bottom-[-80px] md:bottom-[-100px] left-[30px] md:left-[40px]"></div>
                 <div className="absolute w-4 h-20 md:w-5 md:h-24 bg-[#00F0FF] bottom-[-80px] md:bottom-[-100px] right-[30px] md:right-[40px]"></div>
@@ -310,33 +310,6 @@ const EnhancedHero = ({ onChatToggle }) => {
           </motion.div>
         </div>
       </section>
-
-      {/* Chatbot Button */}
-      <motion.button
-        className="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-gradient-to-r from-[#00F0FF] to-[#0077FF] flex items-center justify-center shadow-[0_0_20px_rgba(0,240,255,0.5)] transition-all duration-300 transform hover:scale-110 hover:rotate-10 z-[1000] border border-[rgba(56,189,248,0.2)] backdrop-blur-md"
-        onClick={onChatToggle}
-        whileHover={{ scale: 1.1, boxShadow: "0 0 30px rgba(0,240,255,0.7)" }}
-        whileTap={{ scale: 0.95 }}
-        animate={{ rotate: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <svg
-          width="32"
-          height="32"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="text-[#0B1220]"
-        >
-          <path
-            d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
-            fill="currentColor"
-          />
-        </svg>
-        <div className="absolute -top-10 right-0 bg-[#0F172A] text-[#F0F9FF] px-4 py-2 rounded-2xl text-sm border border-[rgba(56,189,248,0.2)] opacity-0 hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
-          Ask the ROS 2 AI Tutor
-        </div>
-      </motion.button>
     </div>
   );
 };

@@ -3,138 +3,123 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug', '52c'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/config',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/config', '588'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/content',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/content', 'c68'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/globalData', '0de'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/metadata', '385'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/registry',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/registry', '9c4'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/__docusaurus/debug/routes',
-    component: ComponentCreator('/ros2-humanoid-book/__docusaurus/debug/routes', '91b'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/ros2-humanoid-book/chatbot',
-    component: ComponentCreator('/ros2-humanoid-book/chatbot', '8fa'),
-    exact: true
-  },
-  {
-    path: '/ros2-humanoid-book/rag-chatbot',
-    component: ComponentCreator('/ros2-humanoid-book/rag-chatbot', 'd9f'),
-    exact: true
-  },
-  {
-    path: '/ros2-humanoid-book/search',
-    component: ComponentCreator('/ros2-humanoid-book/search', '16d'),
-    exact: true
-  },
-  {
-    path: '/ros2-humanoid-book/docs',
-    component: ComponentCreator('/ros2-humanoid-book/docs', 'e68'),
+    path: '/docs',
+    component: ComponentCreator('/docs', 'feb'),
     routes: [
       {
-        path: '/ros2-humanoid-book/docs',
-        component: ComponentCreator('/ros2-humanoid-book/docs', 'eda'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '87c'),
         routes: [
           {
-            path: '/ros2-humanoid-book/docs',
-            component: ComponentCreator('/ros2-humanoid-book/docs', '888'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '458'),
             routes: [
               {
-                path: '/ros2-humanoid-book/docs/chapter-template',
-                component: ComponentCreator('/ros2-humanoid-book/docs/chapter-template', 'f85'),
+                path: '/docs/chapter-template',
+                component: ComponentCreator('/docs/chapter-template', '7f6'),
                 exact: true
               },
               {
-                path: '/ros2-humanoid-book/docs/community/contribution-guide',
-                component: ComponentCreator('/ros2-humanoid-book/docs/community/contribution-guide', '6f6'),
+                path: '/docs/community/contribution-guide',
+                component: ComponentCreator('/docs/community/contribution-guide', 'f8f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/content-validation-process',
-                component: ComponentCreator('/ros2-humanoid-book/docs/content-validation-process', 'eab'),
+                path: '/docs/content-validation-process',
+                component: ComponentCreator('/docs/content-validation-process', 'be1'),
                 exact: true
               },
               {
-                path: '/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2',
-                component: ComponentCreator('/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2', '6db'),
+                path: '/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2',
+                component: ComponentCreator('/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2', 'c6b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents',
-                component: ComponentCreator('/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents', '037'),
+                path: '/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents',
+                component: ComponentCreator('/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents', 'efa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure',
-                component: ComponentCreator('/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure', '5fe'),
+                path: '/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure',
+                component: ComponentCreator('/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure', '965'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/modules/module-1-ros2/summary',
-                component: ComponentCreator('/ros2-humanoid-book/docs/modules/module-1-ros2/summary', 'a41'),
+                path: '/docs/modules/module-1-ros2/summary',
+                component: ComponentCreator('/docs/modules/module-1-ros2/summary', 'e71'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/reference/glossary',
-                component: ComponentCreator('/ros2-humanoid-book/docs/reference/glossary', '8b1'),
+                path: '/docs/reference/glossary',
+                component: ComponentCreator('/docs/reference/glossary', 'efd'),
                 exact: true
               },
               {
-                path: '/ros2-humanoid-book/docs/reference/ros2-concepts/nodes-topics-services',
-                component: ComponentCreator('/ros2-humanoid-book/docs/reference/ros2-concepts/nodes-topics-services', 'aa9'),
+                path: '/docs/reference/ros2-concepts/nodes-topics-services',
+                component: ComponentCreator('/docs/reference/ros2-concepts/nodes-topics-services', 'fe6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/reference/ros2-concepts/rclpy-basics',
-                component: ComponentCreator('/ros2-humanoid-book/docs/reference/ros2-concepts/rclpy-basics', 'a01'),
+                path: '/docs/reference/ros2-concepts/rclpy-basics',
+                component: ComponentCreator('/docs/reference/ros2-concepts/rclpy-basics', 'da4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/reference/ros2-concepts/urdf-overview',
-                component: ComponentCreator('/ros2-humanoid-book/docs/reference/ros2-concepts/urdf-overview', '474'),
+                path: '/docs/reference/ros2-concepts/urdf-overview',
+                component: ComponentCreator('/docs/reference/ros2-concepts/urdf-overview', '7fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ros2-humanoid-book/docs/visual-assets-template',
-                component: ComponentCreator('/ros2-humanoid-book/docs/visual-assets-template', '095'),
+                path: '/docs/visual-assets-template',
+                component: ComponentCreator('/docs/visual-assets-template', 'a0d'),
                 exact: true
               },
               {
-                path: '/ros2-humanoid-book/docs/writing-guidelines',
-                component: ComponentCreator('/ros2-humanoid-book/docs/writing-guidelines', 'e16'),
+                path: '/docs/writing-guidelines',
+                component: ComponentCreator('/docs/writing-guidelines', '853'),
                 exact: true
               }
             ]
@@ -144,8 +129,8 @@ export default [
     ]
   },
   {
-    path: '/ros2-humanoid-book/',
-    component: ComponentCreator('/ros2-humanoid-book/', 'ba3'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

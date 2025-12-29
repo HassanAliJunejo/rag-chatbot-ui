@@ -1,137 +1,117 @@
 {
-  "/ros2-humanoid-book/__docusaurus/debug-52c": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/__docusaurus/debug/config-588": {
+  "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/__docusaurus/debug/content-c68": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "__props": "__props---ros-2-humanoid-book-docusaurus-debug-content-9-d-0-a76"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/ros2-humanoid-book/__docusaurus/debug/globalData-0de": {
+  "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/__docusaurus/debug/metadata-385": {
+  "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/__docusaurus/debug/registry-9c4": {
+  "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/__docusaurus/debug/routes-91b": {
+  "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docusaurus-debugb-38-2a4"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ros2-humanoid-book/chatbot-8fa": {
-    "__comp": "__comp---site-src-pages-chatbot-jsb-34-5a2",
-    "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-chatbota-74-1be"
-    },
-    "config": "config---ros-2-humanoid-book-chatbot-5-e-9-ff0"
-  },
-  "/ros2-humanoid-book/rag-chatbot-d9f": {
-    "__comp": "__comp---site-src-pages-rag-chatbot-jsd-9-b-8fc",
-    "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-chatbota-74-1be"
-    },
-    "config": "config---ros-2-humanoid-book-chatbot-5-e-9-ff0"
-  },
-  "/ros2-humanoid-book/search-16d": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
-    "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-searchc-14-064"
-    }
-  },
-  "/ros2-humanoid-book/docs-e68": {
+  "/docs-feb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-docsaba-d92"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/ros2-humanoid-book/docs-eda": {
+  "/docs-87c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---ros-2-humanoid-book-docsc-96-c9c"
+    "__props": "__props---docs-005-788"
   },
-  "/ros2-humanoid-book/docs-888": {
+  "/docs-458": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/ros2-humanoid-book/docs/chapter-template-f85": {
+  "/docs/chapter-template-7f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-chapter-template-98-e-3e3"
+    "content": "content---docs-chapter-template-98-e-f7b"
   },
-  "/ros2-humanoid-book/docs/community/contribution-guide-6f6": {
+  "/docs/community/contribution-guide-f8f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-community-contribution-guidebe-7-e4c"
+    "content": "content---docs-community-contribution-guidebe-7-a6e"
   },
-  "/ros2-humanoid-book/docs/content-validation-process-eab": {
+  "/docs/content-validation-process-be1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-content-validation-process-032-f65"
+    "content": "content---docs-content-validation-process-032-0b0"
   },
-  "/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2-6db": {
+  "/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2-c6b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-modules-module-1-ros-2-chapter-1-introduction-to-ros-2-a-8-b-92d"
+    "content": "content---docs-modules-module-1-ros-2-chapter-1-introduction-to-ros-2-a-8-b-233"
   },
-  "/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents-037": {
+  "/docs/modules/module-1-ros2/chapter-2-ros2-communication-python-agents-efa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-modules-module-1-ros-2-chapter-2-ros-2-communication-python-agentsa-7-e-f6b"
+    "content": "content---docs-modules-module-1-ros-2-chapter-2-ros-2-communication-python-agentsa-7-e-ac6"
   },
-  "/ros2-humanoid-book/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure-5fe": {
+  "/docs/modules/module-1-ros2/chapter-3-urdf-humanoid-structure-965": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-modules-module-1-ros-2-chapter-3-urdf-humanoid-structure-744-df0"
+    "content": "content---docs-modules-module-1-ros-2-chapter-3-urdf-humanoid-structure-744-576"
   },
-  "/ros2-humanoid-book/docs/modules/module-1-ros2/summary-a41": {
+  "/docs/modules/module-1-ros2/summary-e71": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-modules-module-1-ros-2-summary-25-c-b86"
+    "content": "content---docs-modules-module-1-ros-2-summary-25-c-192"
   },
-  "/ros2-humanoid-book/docs/reference/glossary-8b1": {
+  "/docs/reference/glossary-efd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-reference-glossary-846-b32"
+    "content": "content---docs-reference-glossary-846-d57"
   },
-  "/ros2-humanoid-book/docs/reference/ros2-concepts/nodes-topics-services-aa9": {
+  "/docs/reference/ros2-concepts/nodes-topics-services-fe6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-reference-ros-2-concepts-nodes-topics-services-56-e-0e6"
+    "content": "content---docs-reference-ros-2-concepts-nodes-topics-services-56-e-716"
   },
-  "/ros2-humanoid-book/docs/reference/ros2-concepts/rclpy-basics-a01": {
+  "/docs/reference/ros2-concepts/rclpy-basics-da4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-reference-ros-2-concepts-rclpy-basics-12-c-3f4"
+    "content": "content---docs-reference-ros-2-concepts-rclpy-basics-12-c-410"
   },
-  "/ros2-humanoid-book/docs/reference/ros2-concepts/urdf-overview-474": {
+  "/docs/reference/ros2-concepts/urdf-overview-7fd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-reference-ros-2-concepts-urdf-overview-4-e-1-104"
+    "content": "content---docs-reference-ros-2-concepts-urdf-overview-4-e-1-87d"
   },
-  "/ros2-humanoid-book/docs/visual-assets-template-095": {
+  "/docs/visual-assets-template-a0d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-visual-assets-templatee-07-0c6"
+    "content": "content---docs-visual-assets-templatee-07-7a7"
   },
-  "/ros2-humanoid-book/docs/writing-guidelines-e16": {
+  "/docs/writing-guidelines-853": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ros-2-humanoid-book-docs-writing-guidelines-0-b-5-3aa"
+    "content": "content---docs-writing-guidelines-0-b-5-3f1"
   },
-  "/ros2-humanoid-book/-ba3": {
+  "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---ros-2-humanoid-book-chatbota-74-1be"
+      "plugin": "plugin---a-74-9d6"
     },
-    "config": "config---ros-2-humanoid-book-chatbot-5-e-9-ff0"
+    "config": "config---5-e-9-4f3"
   }
 }

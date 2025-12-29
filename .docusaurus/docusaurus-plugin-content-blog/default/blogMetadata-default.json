@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/ros2-humanoid-book/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/ros2-humanoid-book/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

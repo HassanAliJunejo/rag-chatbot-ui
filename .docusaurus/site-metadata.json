@@ -32,15 +32,13 @@
       "name": "@docusaurus/theme-classic",
       "version": "3.9.2"
     },
-    "docusaurus-theme-search-algolia": {
-      "type": "package",
-      "name": "@docusaurus/theme-search-algolia",
-      "version": "3.9.2"
-    },
     "docusaurus-plugin-postcss": {
       "type": "package",
       "name": "docusaurus-plugin-postcss",
       "version": "1.0.0"
+    },
+    "global-chatbot-plugin": {
+      "type": "project"
     }
   }
 }

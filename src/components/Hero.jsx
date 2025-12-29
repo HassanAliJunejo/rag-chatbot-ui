@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Hero = ({ onChatToggle }) => {
+const Hero = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-[#0B1220]"> {/* Dark background from index.html */}
       {/* Animated gradient background */}
@@ -204,45 +204,6 @@ const Hero = ({ onChatToggle }) => {
           </motion.button>
         </div>
       </div>
-
-      {/* Floating Chat Icon - Glassmorphic and Cyber-Tech */}
-      <motion.div
-        className="fixed bottom-8 right-8 z-[9999]"
-        onClick={onChatToggle}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-        initial={{ opacity: 0, y: 20 }}
-        animate={{
-          opacity: 1,
-          y: 0,
-          scale: [1, 1.05, 1],
-        }}
-        transition={{
-          duration: 2,
-          repeat: Infinity,
-          repeatType: "reverse",
-          ease: "easeInOut"
-        }}
-      >
-        <button
-          className="w-16 h-16 rounded-full bg-gradient-to-r from-[#00F0FF] to-[#0077FF] flex items-center justify-center shadow-[0_0_25px_rgba(0,240,255,0.5)] hover:shadow-[0_0_35px_rgba(0,240,255,0.7)] transition-all duration-300 transform hover:scale-110 backdrop-blur-md border border-[#00F0FF]/50 cursor-pointer"
-          style={{ pointerEvents: 'auto' }}
-        >
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="text-[#0B1220]"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12C2 13.54 2.36 15.01 3.02 16.32L2 22L7.68 20.98C8.99 21.64 10.46 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM9 17L7 15L8.41 13.59L10.83 16.01L15.41 11.41L17 13L12 18L9 17Z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
-      </motion.div>
     </div>
   );
 };

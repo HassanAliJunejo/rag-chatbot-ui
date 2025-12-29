@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-username.github.io",
-      "baseUrl": "/ros2-humanoid-book/"
+      "url": "https://rag-chatbot-ui.vercel.app",
+      "baseUrl": "/"
     }
   }
 }

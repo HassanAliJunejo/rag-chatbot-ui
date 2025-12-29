@@ -34,8 +34,6 @@ const Navbar = () => {
         <div className={styles.navCenter}>
           <Link to="/" className={styles.navLink}>ROS 2 Humanoid Robotics</Link>
           <Link to="/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2" className={styles.navLink}>Module 1</Link>
-          <Link to="/chatbot" className={styles.navLink}>Chatbot</Link>
-          <Link to="/rag-chatbot" className={styles.navLink}>RAG Chatbot</Link>
         </div>
         
         <div className={styles.navRight}>

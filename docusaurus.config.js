@@ -23,6 +23,7 @@ const config = {
 
   plugins: [
     './plugins/docusaurus-postcss/src/index.js',
+    './plugins/docusaurus-plugin-global-chatbot',
   ],
   presets: [
     [
@@ -58,16 +59,6 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Module 1',
-          },
-          {
-            to: '/chatbot',
-            label: 'Chatbot',
-            position: 'left',
-          },
-          {
-            to: '/rag-chatbot',
-            label: 'RAG Chatbot',
-            position: 'left',
           },
           {
             href: 'https://github.com/HassanAliJunejo/rag-chatbot-ui',

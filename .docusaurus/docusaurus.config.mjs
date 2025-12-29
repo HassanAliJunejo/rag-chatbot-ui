@@ -7,10 +7,10 @@ export default {
   "title": "Physical AI & Humanoid Robotics Book",
   "tagline": "Module 1: The Robotic Nervous System (ROS 2)",
   "favicon": "img/favicon.ico",
-  "url": "https://your-username.github.io",
-  "baseUrl": "/ros2-humanoid-book/",
-  "organizationName": "your-username",
-  "projectName": "ros2-humanoid-book",
+  "url": "https://rag-chatbot-ui.vercel.app",
+  "baseUrl": "/",
+  "organizationName": "HassanAliJunejo",
+  "projectName": "rag-chatbot-ui",
   "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -21,37 +21,24 @@ export default {
     "localeConfigs": {}
   },
   "plugins": [
-    "./plugins/docusaurus-postcss/src/index.js"
+    "./plugins/docusaurus-postcss/src/index.js",
+    "./plugins/docusaurus-plugin-global-chatbot"
   ],
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "./sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
       }
     ]
-  ],
-  "stylesheets": [
-    {
-      "href": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
-      "type": "text/css",
-      "crossorigin": "anonymous"
-    },
-    {
-      "href": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap",
-      "type": "text/css",
-      "crossorigin": "anonymous"
-    }
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
@@ -69,17 +56,7 @@ export default {
           "label": "Module 1"
         },
         {
-          "to": "/chatbot",
-          "label": "Chatbot",
-          "position": "left"
-        },
-        {
-          "to": "/rag-chatbot",
-          "label": "RAG Chatbot",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/HassanAliJunejo/rag-chatbot-ui",
           "label": "GitHub",
           "position": "right"
         }
@@ -88,174 +65,17 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Module 1",
-              "to": "/docs/modules/module-1-ros2/chapter-1-introduction-to-ros2"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2025 ROS 2 Humanoid Robotics Book. Built with Docusaurus."
+      "copyright": "Copyright © 2025 ROS 2 Humanoid Robotics Book. Built with Docusaurus.",
+      "links": []
     },
     "prism": {
       "theme": {
-        "plain": {
-          "color": "#bfc7d5",
-          "backgroundColor": "#292d3e"
-        },
-        "styles": [
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(105, 112, 152)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "inserted"
-            ],
-            "style": {
-              "color": "rgb(195, 232, 141)"
-            }
-          },
-          {
-            "types": [
-              "number"
-            ],
-            "style": {
-              "color": "rgb(247, 140, 108)"
-            }
-          },
-          {
-            "types": [
-              "builtin",
-              "char",
-              "constant",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(130, 170, 255)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(199, 146, 234)"
-            }
-          },
-          {
-            "types": [
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(191, 199, 213)"
-            }
-          },
-          {
-            "types": [
-              "class-name",
-              "attr-name"
-            ],
-            "style": {
-              "color": "rgb(255, 203, 107)"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 114)"
-            }
-          },
-          {
-            "types": [
-              "operator"
-            ],
-            "style": {
-              "color": "rgb(137, 221, 255)"
-            }
-          },
-          {
-            "types": [
-              "boolean"
-            ],
-            "style": {
-              "color": "rgb(255, 88, 116)"
-            }
-          },
-          {
-            "types": [
-              "keyword"
-            ],
-            "style": {
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "doctype"
-            ],
-            "style": {
-              "color": "rgb(199, 146, 234)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "namespace"
-            ],
-            "style": {
-              "color": "rgb(178, 204, 214)"
-            }
-          },
-          {
-            "types": [
-              "url"
-            ],
-            "style": {
-              "color": "rgb(221, 221, 221)"
-            }
-          }
-        ]
+        "plain": {},
+        "styles": []
+      },
+      "darkTheme": {
+        "plain": {},
+        "styles": []
       },
       "additionalLanguages": [],
       "magicComments": [
@@ -268,19 +88,6 @@ export default {
           }
         }
       ]
-    },
-    "algolia": {
-      "appId": "YOUR_APP_ID",
-      "apiKey": "YOUR_SEARCH_API_KEY",
-      "indexName": "ros2-humanoid-book",
-      "contextualSearch": true,
-      "externalUrlRegex": "external\\.example\\.com|thirdparty\\.website\\.com",
-      "replaceSearchResultPathname": {
-        "from": "/docs/",
-        "to": "/"
-      },
-      "searchParameters": {},
-      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",
@@ -336,6 +143,7 @@ export default {
   "themes": [],
   "scripts": [],
   "headTags": [],
+  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,

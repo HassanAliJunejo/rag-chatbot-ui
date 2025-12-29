@@ -5,10 +5,9 @@
   "source": "@site/docs/reference/ros2-concepts/urdf-overview.md",
   "sourceDirName": "reference/ros2-concepts",
   "slug": "/reference/ros2-concepts/urdf-overview",
-  "permalink": "/ros2-humanoid-book/docs/reference/ros2-concepts/urdf-overview",
+  "permalink": "/docs/reference/ros2-concepts/urdf-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/ros2-concepts/urdf-overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "rclpy Basics: Python Client Library for ROS 2",
-    "permalink": "/ros2-humanoid-book/docs/reference/ros2-concepts/rclpy-basics"
+    "permalink": "/docs/reference/ros2-concepts/rclpy-basics"
   },
   "next": {
     "title": "Community Contribution Guide",
-    "permalink": "/ros2-humanoid-book/docs/community/contribution-guide"
+    "permalink": "/docs/community/contribution-guide"
   }
 }
